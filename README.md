@@ -16,6 +16,7 @@ STEP-4: Else subtract the key from the plain text.
 STEP-5: Display the cipher text obtained above.
 
 ## PROGRAM:
+```
 #include <stdio.h> 
 #include <string.h> 
 #include <ctype.h> 
@@ -50,6 +51,7 @@ void main()
         printf("%c",plain[i]); 
     } 
 }
+```
 
 ## OUTPUT:
 <img width="531" height="340" alt="Screenshot 2026-10-27 135829" src="https://github.com/user-attachments/assets/ad6f26e3-171c-41cc-9608-48e1c93d446e" />
